@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/*.db
+logs/*.log
+services/*.yaml
+!services/example.yaml
+config/local.yaml
+
+# Node.js
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+dashboard/.env.local
+dashboard/npm-debug.log*
+dashboard/yarn-debug.log*
+dashboard/yarn-error.log*
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Distribution
+dist/
+build/
+*.egg-info/
